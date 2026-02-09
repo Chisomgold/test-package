@@ -42,7 +42,7 @@ jobs:
       url: https://test.pypi.org/p/test-package
 
     permissions:
-      id-token: pypi-AgENdGVzdC5weXBpLm9yZwIkYzVmN2JiNzAtZTU1ZC00Y2QzLWFlY2ItYjA3MzVmNDk2ZWQ3AAIqWzMsIjE3MmIwMTZjLTZiODctNGI3NC05MjMyLTBlMzIyZGEyY2FmZSJdAAAGIN3JGWYlGTLz0N-MhExihrRKSAbhOfuIehrOkcBgFLOA
+      id-token: write
 
     steps:
     - name: Download all the dists
