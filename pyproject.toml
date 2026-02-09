@@ -1,10 +1,10 @@
 [build-system]
-requires = ["setuptools", "setuptools-scm>=8"]
+requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "testpkg-dfile"
-dynamic = ["version"]
+version = "0.1.7"
 description = "Test package that requires an installed data file"
 readme = "README.md"
 requires-python = ">=3.10"
