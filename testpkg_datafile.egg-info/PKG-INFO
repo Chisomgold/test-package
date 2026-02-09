@@ -1,5 +1,0 @@
-Metadata-Version: 2.4
-Name: testpkg-datafile
-Version: 0.1.0
-Summary: Test package that requires an installed data file
-Requires-Python: >=3.10
