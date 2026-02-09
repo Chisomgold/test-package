@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "testpkg-datafile"
+dynamic = ["version"]
+description = "Test package that requires an installed data file"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+packages = ["testpkg", "testpkg.data"]
+
+[tool.setuptools.package-data]
+testpkg = ["data/*.txt"]
+
+[tool.setuptools.dynamic]
+version = { attr = "testpkg.__version__" }
+
