@@ -3,7 +3,7 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "testpkg"
+name = "testpkg-dfile"
 dynamic = ["version"]
 description = "Test package that requires an installed data file"
 requires-python = ">=3.10"
