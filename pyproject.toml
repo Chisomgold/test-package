@@ -15,6 +15,3 @@ packages = ["testpkg", "testpkg.data"]
 [tool.setuptools.package-data]
 testpkg = ["data/*.txt"]
 
-[tool.setuptools.dynamic]
-version = { attr = "testpkg.__version__" }
-
