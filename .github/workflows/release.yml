@@ -39,7 +39,7 @@ jobs:
 
     environment:
       name: testpypi
-      url: https://test.pypi.org/p/testpkg-datafile
+      url: https://test.pypi.org/p/testpkg-dfile
 
     permissions:
       id-token: write
